@@ -9,4 +9,5 @@ app.config["DEBUG"] = True
 def update():
     return jsonify(update_pool())
 
-app.run()
+if __name__ == '__main__':
+    app.run()
