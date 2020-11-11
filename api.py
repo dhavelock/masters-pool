@@ -5,7 +5,7 @@ from leaderboard import update_pool
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
-@app.route('/api/v1/', methods=['GET'])
+@app.route('/api/v1/leaderboard', methods=['GET'])
 def update():
     return jsonify(update_pool())
 
