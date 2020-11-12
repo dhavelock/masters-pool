@@ -10,7 +10,7 @@ def update():
     response = {
         'leaderboard': update_pool()
     }
-    return jsonify(update_pool())
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run()
