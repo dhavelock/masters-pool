@@ -8,7 +8,7 @@ pool = [
                 "name": "Dustin Johnson"
             },
             {
-                "name": "Tyrell Hatton"
+                "name": "Tyrrell Hatton"
             },
             {
                 "name": "Jason Day"
@@ -115,10 +115,10 @@ pool = [
         "nickname" : "Ben Simmons",
         "players": [
             {
-                "name": "Rory Mcilory"
+                "name": "Rory McIlroy"
             },
             {
-                "name": "Colin Morikawa"
+                "name": "Collin Morikawa"
             },
             {
                 "name": "Tiger Woods"
@@ -137,7 +137,7 @@ pool = [
         "nickname" : "Shalit",
         "players": [
             {
-                "name": "John Rahm"
+                "name": "Jon Rahm"
             },
             {
                 "name": "Tony Finau"
@@ -159,7 +159,7 @@ pool = [
         "nickname" : "Earle's Law",
         "players": [
             {
-                "name": "John Rahm"
+                "name": "Jon Rahm"
             },
             {
                 "name": "Patrick Cantlay"
@@ -171,7 +171,7 @@ pool = [
                 "name": "Scottie Scheffler"
             },
             {
-                "name": "Corey Connors"
+                "name": "Corey Conners"
             }
         ]
     },
@@ -238,6 +238,28 @@ pool = [
             },
             {
                 "name": "Gary Woodland"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Doc",
+        "players": [
+            {
+                "name": "Bryson DeChambeau"
+            },
+            {
+                "name": "Brooks Koepka"
+            },
+            {
+                "name": "Tiger Woods"
+            },
+            {
+                "name": "Phil Mickelson"
+            },
+            {
+                "name": "Si Woo Kim"
             }
         ]
     }
