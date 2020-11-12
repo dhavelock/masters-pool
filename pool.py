@@ -2,6 +2,7 @@ pool = [
     {
         "first_name": "Jonathan",
         "last_name": "Sharir-Smith",
+        "nickname" : "Smith Doctor",
         "players": [
             {
                 "name": "Dustin Johnson"
@@ -21,56 +22,169 @@ pool = [
         ]
     },
     {
-        "first_name": "Jonathan",
-        "last_name": "Sharir-Smith",
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Shark",
         "players": [
             {
                 "name": "Dustin Johnson"
             },
             {
+                "name": "Brooks Koepka"
+            },
+            {
+                "name": "Tiger Woods"
+            },
+            {
+                "name": "Scottie Scheffler"
+            },
+            {
+                "name": "Erik van Rooyen"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Trusty",
+        "players": [
+            {
                 "name": "Dustin Johnson"
+            },
+            {
+                "name": "Brooks Koepka"
             },
             {
                 "name": "Jason Day"
             },
             {
-                "name": "Dustin Johnson"
+                "name": "Louis Oosthuizen"
             },
             {
-                "name": "Abraham Ancer"
+                "name": "Francesco Molinari"
             }
         ]
     },
     {
-        "first_name": "Jonathan",
-        "last_name": "Sharir-Smith",
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Mr. Pistol",
+        "players": [
+            {
+                "name": "Justin Thomas"
+            },
+            {
+                "name": "Tony Finau"
+            },
+            {
+                "name": "Webb Simpson"
+            },
+            {
+                "name": "Scottie Scheffler"
+            },
+            {
+                "name": "Francesco Molinari"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Sgt. Gutmann",
         "players": [
             {
                 "name": "Dustin Johnson"
             },
             {
-                "name": "Tyrell Hatton"
+                "name": "Brooks Koepka"
             },
             {
-                "name": "Dustin Johnson"
+                "name": "Matthew Wolff"
             },
             {
-                "name": "Justin Rose"
+                "name": "Scottie Scheffler"
             },
             {
-                "name": "Abraham Ancer"
+                "name": "Brendon Todd"
             }
         ]
     },
     {
-        "first_name": "Jonathan",
-        "last_name": "Sharir-Smith",
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Ben Simmons",
+        "players": [
+            {
+                "name": "Rory Mcilory"
+            },
+            {
+                "name": "Colin Morikawa"
+            },
+            {
+                "name": "Tiger Woods"
+            },
+            {
+                "name": "Jordan Spieth"
+            },
+            {
+                "name": "Gary Woodland"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Shalit",
+        "players": [
+            {
+                "name": "John Rahm"
+            },
+            {
+                "name": "Tony Finau"
+            },
+            {
+                "name": "Matthew Wolff"
+            },
+            {
+                "name": "Paul Casey"
+            },
+            {
+                "name": "Francesco Molinari"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Earle's Law",
+        "players": [
+            {
+                "name": "John Rahm"
+            },
+            {
+                "name": "Patrick Cantlay"
+            },
+            {
+                "name": "Jason Day"
+            },
+            {
+                "name": "Scottie Scheffler"
+            },
+            {
+                "name": "Corey Connors"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Prycey D",
         "players": [
             {
                 "name": "Dustin Johnson"
             },
             {
-                "name": "Tyrell Hatton"
+                "name": "Brooks Koepka"
             },
             {
                 "name": "Jason Day"
@@ -79,7 +193,51 @@ pool = [
                 "name": "Justin Rose"
             },
             {
+                "name": "Kevin Kisner"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "D Picks",
+        "players": [
+            {
                 "name": "Dustin Johnson"
+            },
+            {
+                "name": "Brooks Koepka"
+            },
+            {
+                "name": "Matthew Wolff"
+            },
+            {
+                "name": "Louis Oosthuizen"
+            },
+            {
+                "name": "Kevin Kisner"
+            }
+        ]
+    },
+    {
+        "first_name": "",
+        "last_name": "",
+        "nickname" : "Kelly",
+        "players": [
+            {
+                "name": "Dustin Johnson"
+            },
+            {
+                "name": "Collin Morikawa"
+            },
+            {
+                "name": "Matthew Wolff"
+            },
+            {
+                "name": "Louis Oosthuizen"
+            },
+            {
+                "name": "Gary Woodland"
             }
         ]
     }
