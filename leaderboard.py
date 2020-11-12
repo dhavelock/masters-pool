@@ -16,7 +16,7 @@ def update_pool():
             'score': score
         })
 
-    return sorted(pool_standings, key=lambda member: member['score'], reverse=True)
+    return sorted(pool_standings, key=lambda member: member['score'])
 
 
 def fetch_leaderboard():

@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-cors = CORS(app, resources={r"/api/v1/": {"origins": "http://localhost:4200/"}})
+CORS(app)
 
 @app.route('/api/v1/leaderboard', methods=['GET'])
 def update():
