@@ -1,6 +1,6 @@
 import flask
 from flask import request, jsonify
-from leaderboard import update_pool
+from leaderboard import update_pool, fetch_leaderboard
 from flask_cors import CORS
 from datetime import datetime
 import pytz
@@ -15,6 +15,11 @@ def update():
         'leaderboard': update_pool(),
         'last_updated': get_timestamp()
     }
+    return jsonify(response)
+
+@app.route('/api/v1/competitors', methods=['GET'])
+def competitors():
+    response = fetch_leaderboard()
     return jsonify(response)
 
 def get_timestamp():

@@ -1,8 +1,9 @@
 import requests
+import json
 from functools import cmp_to_key
 from pool import get_pool
 
-leaderboard_url = 'http://samsandberg.com/themasters/'
+espn_url = 'https://www.espn.com/golf/leaderboard'
 
 def update_pool():
     leaderboard = fetch_leaderboard()
@@ -23,9 +24,18 @@ def update_pool():
 
 
 def fetch_leaderboard():
-    response = requests.get(url=leaderboard_url)
-    return response.json()
+    response = requests.get(url=espn_url)
 
+    return parse_espn_response(response)
+
+def parse_espn_response(response):
+    raw = response.text
+    start_index = raw.find('\"competitors\":')
+    end_index = raw.find(',\"rawText\":')
+
+    raw_leaderboard = "{" + raw[start_index : end_index] + "}"
+
+    return json.loads(raw_leaderboard)
 
 def get_player_scores(leaderboard, member):
 
@@ -34,9 +44,9 @@ def get_player_scores(leaderboard, member):
     for player_pick in member['players']:
 
         # linear search for the player and add score to member
-        for p in leaderboard['players']:
-            if p['player'] == player_pick['name']:
-                member['players'][i]['curr_score'] = p['to_par']
+        for p in leaderboard['competitors']:
+            if p['name'] == player_pick['name']:
+                member['players'][i]['curr_score'] = p['toPar']
                 break
         
         i += 1
@@ -53,20 +63,7 @@ def calculate_member_score(member):
             
         scores.append(score)
 
-    return sum(sorted(scores)[:3])
-
-
-def compare_players(p1, p2):
-    if p2['to_par'] == 'CUT':
-        return -1
-    elif p1['to_par'] == 'CUT':
-        return 1
-    elif p1['to_par'] < p2['to_par']:
-        return -1
-    elif p1['to_par'] > p2['to_par']:
-        return 1
-    else:
-        return 0
+    return sum(sorted(scores)[:5])
 
 
 def isInt(s):
