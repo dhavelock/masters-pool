@@ -414,6 +414,32 @@ pool = [
                 "name": "Kevin Na"
             }
         ]
+    },
+    {
+        "full_name": "Shalit",
+        "players": [
+            {
+                "name": "Dustin Johnson"
+            },
+            {
+                "name": "Viktor Hovland"
+            },
+            {
+                "name": "Sungjae Im"
+            },
+            {
+                "name": "Tommy Fleetwood"
+            },
+            {
+                "name": "Billy Horschel"
+            },
+            {
+                "name": "Cameron Champ"
+            },
+            {
+                "name": "Kevin Na"
+            }
+        ]
     }
 ]
 
