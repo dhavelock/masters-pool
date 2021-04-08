@@ -58,7 +58,7 @@ pool = [
                 "name": "Justin Thomas"
             },
             {
-                "name": "Xander Schauffele"
+                "name": "Xander Schauffele"
             },
             {
                 "name": "Daniel Berger"
