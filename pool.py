@@ -3,25 +3,25 @@ pool = [
         "full_name": "JSS",
         "players": [
             {
-                "name": "Justin Thomas"
+                "name": "Jon Rahm"
             },
             {
-                "name": "Patrick Cantlay"
+                "name": "Tony Finau"
             },
             {
-                "name": "Cameron Smith"
+                "name": "Corey Conners"
             },
             {
-                "name": "Joaquin Niemann"
+                "name": "Gary Woodland"
             },
             {
-                "name": "Max Homa"
+                "name": "Jason Kokrak"
             },
             {
-                "name": "Marc Leishman"
+                "name": "Thomas Pieters"
             },
             {
-                "name": "Ryan Palmer"
+                "name": "Brandon Stone"
             }
         ]
     },
@@ -32,22 +32,22 @@ pool = [
                 "name": "Justin Thomas"
             },
             {
-                "name": "Brooks Koepka"
+                "name": "Collin Morikawa"
             },
             {
-                "name": "Hideki Matsuyama"
+                "name": "Corey Conners"
             },
             {
-                "name": "Louis Oosthuizen"
+                "name": "Gary Woodland"
             },
             {
-                "name": "Abraham Ancer"
+                "name": "Rickie Fowler"
             },
             {
-                "name": "Si Woo Kim"
+                "name": "Brandt Snedeker"
             },
             {
-                "name": "Charl Schwartzel"
+                "name": "Adam Long"
             }
         ]
     },
@@ -55,25 +55,25 @@ pool = [
         "full_name": "Shark",
         "players": [
             {
-                "name": "Justin Thomas"
-            },
-            {
                 "name": "Xander Schauffele"
             },
             {
-                "name": "Daniel Berger"
+                "name": "Tony Finau"
             },
             {
-                "name": "Tyrrell Hatton"
+                "name": "Joaquin Niemann"
             },
             {
-                "name": "Victor Perez"
+                "name": "Garrick Higgo"
             },
             {
-                "name": "Ian Poulter"
+                "name": "Jason Kokrak"
             },
             {
-                "name": "Ryan Palmer"
+                "name": "John Catlin"
+            },
+            {
+                "name": "J.T. Poston"
             }
         ]
     },
@@ -81,16 +81,10 @@ pool = [
         "full_name": "Trusty",
         "players": [
             {
-                "name": "Justin Thomas"
+                "name": "Rory McIlroy"
             },
             {
-                "name": "Patrick Reed"
-            },
-            {
-                "name": "Scottie Scheffler"
-            },
-            {
-                "name": "Louis Oosthuizen"
+                "name": "Collin Morikawa"
             },
             {
                 "name": "Corey Conners"
@@ -99,33 +93,13 @@ pool = [
                 "name": "Si Woo Kim"
             },
             {
+                "name": "Matt Kuchar"
+            },
+            {
+                "name": "Danny Willett"
+            },
+            {
                 "name": "Mackenzie Hughes"
-            }
-        ]
-    },
-    {
-        "full_name": "Mr. Pistol",
-        "players": [
-            {
-                "name": "Justin Thomas"
-            },
-            {
-                "name": "Collin Morikawa"
-            },
-            {
-                "name": "Cameron Smith"
-            },
-            {
-                "name": "Tommy Fleetwood"
-            },
-            {
-                "name": "Abraham Ancer"
-            },
-            {
-                "name": "Si Woo Kim"
-            },
-            {
-                "name": "Ryan Palmer"
             }
         ]
     },
@@ -139,19 +113,19 @@ pool = [
                 "name": "Collin Morikawa"
             },
             {
-                "name": "Hideki Matsuyama"
+                "name": "Sam Burns"
             },
             {
-                "name": "Will Zalatoris"
+                "name": "Russell Henley"
             },
             {
-                "name": "Corey Conners"
+                "name": "Stewart Cink"
             },
             {
-                "name": "Francesco Molinari"
+                "name": "Lanto Griffin"
             },
             {
-                "name": "Ryan Palmer"
+                "name": "Chez Reavie"
             }
         ]
     },
@@ -159,25 +133,25 @@ pool = [
         "full_name": "Ben Simmons",
         "players": [
             {
-                "name": "Justin Thomas"
+                "name": "Rory McIlroy"
             },
             {
-                "name": "Collin Morikawa"
-            },
-            {
-                "name": "Scottie Scheffler"
+                "name": "Tommy Fleetwood"
             },
             {
                 "name": "Joaquin Niemann"
             },
             {
-                "name": "Corey Conners"
+                "name": "Lee Westwood"
             },
             {
-                "name": "Si Woo Kim"
+                "name": "Jason Kokrak"
             },
             {
-                "name": "Zach Johnson"
+                "name": "Phil Mickelson"
+            },
+            {
+                "name": "Harry Higgs"
             }
         ]
     },
@@ -185,77 +159,25 @@ pool = [
         "full_name": "Earle's Law",
         "players": [
             {
-                "name": "Rory McIlroy"
+                "name": "Bryson DeChambeau"
             },
             {
-                "name": "Tony Finau"
-            },
-            {
-                "name": "Scottie Scheffler"
-            },
-            {
-                "name": "Corey Conners"
-            },
-            {
-                "name": "Matthew Wolff"
-            },
-            {
-                "name": "Dylan Frittelli"
-            },
-            {
-                "name": "Sebastian Munoz"
-            }
-        ]
-    },
-    {
-        "full_name": "Prycey D",
-        "players": [
-            {
-                "name": "Jon Rahm"
-            },
-            {
-                "name": "Brooks Koepka"
-            },
-            {
-                "name": "Sungjae Im"
-            },
-            {
-                "name": "Louis Oosthuizen"
-            },
-            {
-                "name": "Matt Kuchar"
-            },
-            {
-                "name": "Si Woo Kim"
-            },
-            {
-                "name": "Kevin Na"
-            }
-        ]
-    },
-    {
-        "full_name": "Doc",
-        "players": [
-            {
-                "name": "Jordan Spieth"
-            },
-            {
-                "name": "Brooks Koepka"
-            },
-            {
-                "name": "Lee Westwood"
-            },
-            {
-                "name": "Tommy Fleetwood"
+                "name": "Patrick Reed"
             },
             {
                 "name": "Abraham Ancer"
             },
             {
-                "name": "Si Woo Kim"
+                "name": "Max Homa"
             },
             {
-                "name": "Kevin Na"
+                "name": "Jason Kokrak"
+            },
+            {
+                "name": "Jazz Janewattananond"
+            },
+            {
+                "name": "Rafael Cabrera Bello"
             }
         ]
     },
@@ -266,22 +188,22 @@ pool = [
                 "name": "Jordan Spieth"
             },
             {
-                "name": "Xander Schauffele"
+                "name": "Tony Finau"
             },
             {
-                "name": "Paul Casey"
+                "name": "Sam Burns"
             },
             {
-                "name": "Tommy Fleetwood"
+                "name": "Charl Schwartzel"
             },
             {
-                "name": "Billy Horschel"
+                "name": "Cameron Champ"
             },
             {
-                "name": "Marc Leishman"
+                "name": "Thomas Pieters"
             },
             {
-                "name": "Zach Johnson"
+                "name": "Rafael Cabrera Bello"
             }
         ]
     },
@@ -292,71 +214,19 @@ pool = [
                 "name": "Justin Thomas"
             },
             {
-                "name": "Tony Finau"
-            },
-            {
-                "name": "Sungjae Im"
-            },
-            {
-                "name": "Tommy Fleetwood"
+                "name": "Brooks Koepka"
             },
             {
                 "name": "Max Homa"
             },
             {
-                "name": "Cameron Champ"
-            },
-            {
-                "name": "Sebastian Munoz"
-            }
-        ]
-    },
-    {
-        "full_name": "Sarm",
-        "players": [
-            {
-                "name": "Dustin Johnson"
-            },
-            {
-                "name": "Collin Morikawa"
-            },
-            {
                 "name": "Lee Westwood"
             },
             {
-                "name": "Tommy Fleetwood"
+                "name": "Rickie Fowler"
             },
             {
-                "name": "Matthew Wolff"
-            },
-            {
-                "name": "Phil Mickelson"
-            },
-            {
-                "name": "Vijay Singh"
-            }
-        ]
-    },
-    {
-        "full_name": "Mitch",
-        "players": [
-            {
-                "name": "Dustin Johnson"
-            },
-            {
-                "name": "Patrick Cantlay"
-            },
-            {
-                "name": "Cameron Smith"
-            },
-            {
-                "name": "Tommy Fleetwood"
-            },
-            {
-                "name": "Billy Horschel"
-            },
-            {
-                "name": "Kevin Kisner"
+                "name": "Brandt Snedeker"
             },
             {
                 "name": "Mackenzie Hughes"
@@ -364,33 +234,33 @@ pool = [
         ]
     },
     {
-        "full_name": "McB",
+        "full_name": "Sarm",
         "players": [
             {
-                "name": "Bryson DeChambeau"
+                "name": "Xander Schauffele"
             },
             {
-                "name": "Brooks Koepka"
+                "name": "Will Zalatoris"
             },
             {
-                "name": "Hideki Matsuyama"
+                "name": "Corey Conners"
             },
             {
-                "name": "Adam Scott"
+                "name": "Si Woo Kim"
             },
             {
-                "name": "Victor Perez"
+                "name": "Rickie Fowler"
             },
             {
-                "name": "Ian Poulter"
+                "name": "Phil Mickelson"
             },
             {
-                "name": "Charl Schwartzel"
+                "name": "Harry Higgs"
             }
         ]
     },
     {
-        "full_name": "Slicer",
+        "full_name": "Mitch",
         "players": [
             {
                 "name": "Justin Thomas"
@@ -399,19 +269,71 @@ pool = [
                 "name": "Collin Morikawa"
             },
             {
-                "name": "Sungjae Im"
+                "name": "Justin Rose"
             },
             {
-                "name": "Abraham Ancer"
-            },
-            {
-                "name": "Matt Kuchar"
+                "name": "Lee Westwood"
             },
             {
                 "name": "Cameron Champ"
             },
             {
-                "name": "Kevin Na"
+                "name": "Phil Mickelson"
+            },
+            {
+                "name": "Adam Hadwin"
+            }
+        ]
+    },
+    {
+        "full_name": "McB",
+        "players": [
+            {
+                "name": "Dustin Johnson"
+            },
+            {
+                "name": "Brooks Koepka"
+            },
+            {
+                "name": "Sungjae Im"
+            },
+            {
+                "name": "Sergio Garcia"
+            },
+            {
+                "name": "Billy Horschel"
+            },
+            {
+                "name": "Harold Varner III"
+            },
+            {
+                "name": "Y.E. Yang"
+            }
+        ]
+    },
+    {
+        "full_name": "Slicer",
+        "players": [
+            {
+                "name": "Rory McIlroy"
+            },
+            {
+                "name": "Collin Morikawa"
+            },
+            {
+                "name": "Sam Burns"
+            },
+            {
+                "name": "Max Homa"
+            },
+            {
+                "name": "Charl Schwartzel"
+            },
+            {
+                "name": "Erik van Rooyen"
+            },
+            {
+                "name": "Harry Higgs"
             }
         ]
     },
@@ -419,25 +341,25 @@ pool = [
         "full_name": "Shalit",
         "players": [
             {
-                "name": "Dustin Johnson"
+                "name": "Jordan Spieth"
             },
             {
-                "name": "Viktor Hovland"
+                "name": "Collin Morikawa"
             },
             {
                 "name": "Sungjae Im"
             },
             {
-                "name": "Tommy Fleetwood"
+                "name": "Garrick Higgo"
             },
             {
-                "name": "Billy Horschel"
+                "name": "Zach Johnson"
             },
             {
-                "name": "Cameron Champ"
+                "name": "Talor Gooch"
             },
             {
-                "name": "Kevin Na"
+                "name": "Harry Higgs"
             }
         ]
     }

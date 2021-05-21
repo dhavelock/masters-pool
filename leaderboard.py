@@ -58,8 +58,13 @@ def calculate_member_score(member):
     scores = []
     for player in member['players']:
         score = 0
-        if isInt(player['curr_score']):
-            score = int(player['curr_score'])
+        try:
+            if isInt(player['curr_score']):
+                score = int(player['curr_score'])
+        except:
+            print('player unavailable:')
+            print(player)
+        
             
         scores.append(score)
 
