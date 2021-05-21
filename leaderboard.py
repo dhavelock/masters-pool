@@ -68,7 +68,7 @@ def calculate_member_score(member):
             
         scores.append(score)
 
-    return sum(sorted(scores)[:5])
+    return sum(sorted(scores)[:4])
 
 
 def isInt(s):
