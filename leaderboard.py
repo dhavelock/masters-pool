@@ -57,19 +57,17 @@ def get_player_scores(leaderboard, member):
 def calculate_member_score(member):
     scores = []
     for player in member['players']:
-        score = 0
+        
         try:
+            score = 0
             if isInt(player['curr_score']):
                 score = int(player['curr_score'])
+            scores.append(score)
         except:
             print('player unavailable:')
             print(player)
-        
-            
-        scores.append(score)
 
     return sum(sorted(scores)[:4])
-
 
 def isInt(s):
     try: 
