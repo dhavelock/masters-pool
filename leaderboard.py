@@ -48,6 +48,9 @@ def get_player_scores(leaderboard, member):
             if p['name'] == player_pick['name']:
                 member['players'][i]['curr_score'] = p['toPar']
                 break
+
+        if 'curr_score' not in member['players'][i]:
+            member['players'][i]['curr_score'] = 'W'
         
         i += 1
 
@@ -58,14 +61,12 @@ def calculate_member_score(member):
     scores = []
     for player in member['players']:
         
-        try:
-            score = 0
-            if isInt(player['curr_score']):
-                score = int(player['curr_score'])
+        if isInt(player['curr_score']):
+            score = int(player['curr_score'])
             scores.append(score)
-        except:
-            print('player unavailable:')
-            print(player)
+
+        elif isEven(player['curr_score']):
+            scores.append(0)
 
     return sum(sorted(scores)[:4])
 
@@ -73,5 +74,15 @@ def isInt(s):
     try: 
         int(s)
         return True
+    except ValueError:
+        return False
+
+def isEven(s):
+    try:
+        val = str(s)
+        if val == 'E':
+            return True
+        else:
+            return False
     except ValueError:
         return False
