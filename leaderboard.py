@@ -45,7 +45,7 @@ def get_player_scores(leaderboard, member):
 
         # linear search for the player and add score to member
         for p in leaderboard['competitors']:
-            if p['name'] == player_pick['name']:
+            if p['name'] == player_pick['name'] and p['tee'] != 'WD':
                 member['players'][i]['curr_score'] = p['toPar']
                 break
 
