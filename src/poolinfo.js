@@ -150,7 +150,7 @@ const teams = [
       'Brooks Koepka',
       'Tiger Woods',
       'Adam Scott',
-      '',
+      'Kurt Kitayama',
       'Cameron Champ',
       'Ben Carr',
     ],
