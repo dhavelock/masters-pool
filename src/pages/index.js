@@ -1,6 +1,16 @@
 import { getLeaderboard } from '@/fetchScores';
 
 const Home = ({ leaderboard }) => {
+  const displayScore = (competitor) => {
+    if (competitor.detail === 'WD') {
+      return 'WD';
+    }
+    if (competitor.cut) {
+      return 'CUT';
+    }
+    return competitor.toPar;
+  };
+
   return (
     <main>
       <div>
@@ -30,7 +40,7 @@ const Home = ({ leaderboard }) => {
                     return (
                       <>
                         <td className="hide-mobile" key={competitor.guid}>
-                          {competitor.toPar}&nbsp;
+                          {displayScore(competitor)}&nbsp;
                         </td>
                         <td className="hide-mobile">
                           {competitor.name.substring(0, 1)}.&nbsp;

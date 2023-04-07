@@ -23,31 +23,48 @@ const parseHtml = (raw) => {
 
 const getCompetitorScore = (competitor) => {
   if (competitor == null || competitor.toPar == null) {
-    return 0;
+    return 1000;
+  }
+  if (competitor.detail != null && competitor.detail == 'WD') {
+    return 1000;
+  }
+  if (competitor.cut != null && competitor.cut) {
+    return 1000;
   }
 
   const rawScore = competitor.toPar;
 
-  if (isNaN(rawScore)) {
+  if (rawScore === 'E') {
     return 0;
-  } else {
+  } else if (!isNaN(rawScore)) {
     return +rawScore;
+  } else {
+    return 1000;
   }
 };
 
-const updateScore = (team, competitors) => {
+const calculateScore = (team) => {
   let score = 0;
+  for (let i = 0; i < 4; i++) {
+    score += getCompetitorScore(team.rosterData[i]);
+  }
+  return score;
+};
+
+const updateScore = (team, competitors) => {
   let rosterData = [];
   team.roster.forEach((player) => {
     const competitor =
       competitors[player] === undefined ? null : competitors[player];
-    score += getCompetitorScore(competitor);
-
     rosterData.push(competitor);
   });
 
+  rosterData.sort((p1, p2) => {
+    return getCompetitorScore(p1) - getCompetitorScore(p2);
+  });
+
   team['rosterData'] = rosterData;
-  team['score'] = score;
+  team['score'] = calculateScore(team);
 };
 
 const getLeaderboard = async () => {
